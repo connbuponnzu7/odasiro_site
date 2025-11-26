@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Mincho ProN', serif;
+    background-color: #404443;
+    color: #B9C3CC;
+    text-align: center;
+    line-height: 1.8;
+    padding-top: 40px;
+}
+
+    .header-top {
+      background-color: #404443;
+      color: #333;
+      padding: 10px 20px;
+      object-position: center;
+    }
+
+    .main-photo {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      background-color: #000000;
+      display: block;
+    }
+    .main-header {
+      background-color: #e6e1d3;
+      padding: 1.5rem 0 1.5rem 0;
+      text-align: center;
+      color: #404443;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      border-top: 1px #000000;
+      padding: 4rem 0 0 0;
+      letter-spacing: 0.15em;
+      margin: 0;
+      text-align: center;
+    }
+
+.description {
+    font-size: 1.3rem;
+    margin: 3rem 0 0 5rem ;
+    padding: 2rem;
+}
+
+.note {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 960px;
+    margin: 3rem auto;
+    padding: 0;
+    color: #ffffff;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin: 1rem 0 1rem;
+}
+
+@media (max-width: 600px) {
+
+}
+
+.vertical-title {
+  writing-mode: vertical-rl;
+  font-family: 'Hiragino Mincho ProN', serif;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  opacity: 0.7;
+}
+
+.vertical-title {
+  writing-mode: vertical-rl;
+  font-family: 'Hiragino Mincho ProN', serif;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  opacity: 0.7;
+}
+
+/*フッターはここから*/
+#copyright small {
+  font-size: 120%;
+  color: #ffffff;
+	padding: 2rem 0 3rem 0;
+	font-style: normal;
+	float: center;
+}
+#top a {
+	display: block;
+}
+a {
+	color: #fa474d;
+  font-size: 120%;
+  margin: .5rem;
+}
+a:hover {
+	color: #fc9698;
+  font-size: 120%;
+}
+/*フッターはここまで*/
+
+/*プロフィールここから*/
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+}
+table, th, td {
+    bottom: 1px solid;
+}
+td {
+    padding: 8px;
+    min-width: 120px;
+}
+td, th {
+    padding: 10px 20px;
+}
+table-wrapper {
+    overflow-x: auto;
+}
+p {
+    margin: 16px;
+}
+@media (max-width: 600px) {
+  table {
+    font-size: 0.9rem;
+    width: 100%;
+    overflow-x: auto;
+  }
+  td, th {
+    display: block;
+    width: 100%;
+  }
+}
+/*プロフィールここまで*/

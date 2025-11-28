@@ -228,10 +228,10 @@ justify-content: center;
   color: #ffffff;
 	padding: 2rem 0 3rem 0;
 	font-style: normal;
-	float: center;
 }
 #top a {
 	display: block;
+  padding: 10px 20px;
 }
 a {
 	color: #fa474d;
